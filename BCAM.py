@@ -160,11 +160,5 @@ while relChange > epsilon:
 plt.plot(rateSeq)
 plt.xlabel('Iteration number')
 plt.ylabel('Secrecy rate (bps/Hz)')
-plt.show()
-        
-
-
-
-    
-
-
+# plt.show()
+plt.savefig("./Convergence.pdf", format="pdf", bbox_inches="tight")
